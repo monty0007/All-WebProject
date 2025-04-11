@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:;
+    /* color: #fff; */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: vector;
+    background-color: #FFF1E6;
+    padding: 16px 8px 16px 8px;
+    color: black;
+}
+
+.header h1{
+    font-size: 30px;
+    color: #E9811F;
+}
+
+.heading p{
+    color: #4D2C19;
+}
+
+.options{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.options p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* .book{
+    background-color: #F8943F;
+    padding: 18px 24px 18px 24px;
+} */
+
+.buttons{
+    display: flex;
+}
+
+.book button{
+    margin-right: 20px;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #F8943F;
+    padding: 18px 24px 18px 24px;
+    gap: 10;
+    color: white;
+}
+
+.help{
+    border: 1px solid #F8943F;
+    border-radius: 20px;
+}
+
+.help button{
+    font-size: 15px;
+    border-style: none;
+    background-color: inherit;
+    padding: 18px 24px 1px 24px;
+    gap: 10;
+    color: #4D2C19;
+}
+
+.options i{
+    color: #F6841F;
+}
+
+.help i{
+    padding-right: 5px;
+}
+
+.book i{
+    padding-right: 5px;
+}
+
+/* --------------------------------- */
+
+.banner{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+}
+
+.banner{
+    background-color: #B5C1A6;
+}
+
+.banner img{
+    position: absolute;
+    height: 60vh;
+    right: 0%;
+    bottom: 0%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 70px;
+}
+
+.text p{
+    font-size: 40px;
+    color: #525252;
+}
+
+.text h3{
+    font-size: 30px;
+}
+
+.text button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #F8943F;
+    padding: 18px 160px 10px 24px;
+    gap: 10;
+    color: white;
+    width: 50vh;
+}
+
+/* ----------------------- */
+
+.banner-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.quote{
+    /* padding-left: 90px; */
+}
+
+.city{
+    display: flex;
+    padding-right: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.citie form select{
+    padding: 10px;
+    border-radius: 20px;
+    width: 40vh;
+    margin-bottom: 10px;
+}
+
+.citie button{
+    /* margin-top: 20px; */
+    /* font-size: 15px; */
+    border-style: none;
+    border-radius: 20px;
+    background-color: #F8943F;
+    padding: 15px;
+    width: 40vh;
+    /* padding: 18px 160px 10px 24px; */
+    /* gap: 10; */
+    color: white;
+
+}
+
+/* ---------------------------- */
+
+.banner-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.teeth{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    padding-top: 40px;
+    height: 70vh;
+    width: 200vh;
+    background-color: #FFF9F4;
+}

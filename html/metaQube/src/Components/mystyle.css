@@ -1,0 +1,110 @@
+img {
+    height: 90px;
+}
+
+h1{
+    margin-top: 0;  
+    margin-bottom: 5px;  
+}
+
+p{
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.box{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.head{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.title{
+    display: flex;
+    border-bottom: 2px solid black;
+    height: 50vh;
+    /* padding: 15px; */
+    /* padding-top: 60px; */
+}
+
+.tit{
+    font-size: 50px;
+    isolation: isolate;
+    color: white;
+    margin: 1em;
+}
+.tit p{
+    margin:0
+}
+
+.img2 {
+    height: 250px;
+    margin-top:88px;
+    margin-left: 48px;
+}
+/* #video{
+    top:0;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+
+} */
+
+.btn {
+    padding: 20px;
+    background-color: #9F20D3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+    /* margin-left: 10px; */
+    cursor: pointer;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+}
+
+.vr{
+    margin: 20px;
+    font-size: 28px;
+}
+
+.img3{
+    height: 200px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.head ul > li:hover {
+    box-shadow: 0 10px 0 0 #F15A29 !important; /*** COLOR AND THICKNESS OF THE LINE ON HOVER ***/
+    padding-bottom: 34px;
+    opacity: 1 !important;
+   }
+   #top-menu li li a {
+    padding-bottom: 6px !important;
+   }
+   #top-menu li.current-menu-item > a,
+   .et-fixed-header #top-menu li.current-menu-item > a {
+    border: 10px solid #F15A29; /*** COLOR AND THICKNESS OF THE BOX ***/
+    padding: 10px;
+    margin-bottom: -10px;
+   }
